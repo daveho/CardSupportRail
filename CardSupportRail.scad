@@ -9,7 +9,7 @@ card_sep = 20.32;
 
 makerbeam_w = 15;
 
-plate_thickness = 3;
+plate_thickness = 2.5;
 
 module plate() {
     translate([-makerbeam_w/2, -makerbeam_w/2, 0])
