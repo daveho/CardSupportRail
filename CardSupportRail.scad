@@ -121,4 +121,9 @@ module support_rail_assembly() {
 
 // This is upside-down from the way it should be printed
 // (it was designed thinking about how it will be used)
-support_rail_assembly();
+//support_rail_assembly();
+
+// Oriented correctly for printing
+rotate([180, 0, 0]) {
+    support_rail_assembly();
+}
